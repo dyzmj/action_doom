@@ -16,6 +16,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: |
-          cat /etc/redhat-release
+      - run: echo "💡  ${{ github.repository }}  "
       - run: echo "🎉 run successful!"
