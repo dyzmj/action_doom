@@ -17,4 +17,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "💡  ${{ github.repository }}  "
-      - run: echo "🎉 run successful!"
+      - run: echo "🎉 run successful!!!"
